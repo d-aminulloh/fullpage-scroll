@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Syncard</title>
+	<meta name="author" content="Demmy Aminulloh" />
+
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/examples.css" /> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+	
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/scrolloverflow.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>
+	<!-- <script type="text/javascript" src="assets/js/examples.js"></script> -->
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['home'],
+				sectionsColor: ['#000000'],
+				css3: true
+			});
+		});
+	</script>
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        
+    </div>
+    <!-- main page -->
+    <div id="fullpage">
+        <div class="section " id="section0">
+            <div class="intro">
+                <video autoplay muted loop id="myVideo">
+                    <source src="assets/video/home.mp4" type="video/mp4">
+                </video>
+                <div class="opacity-layer"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

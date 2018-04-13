@@ -1,0 +1,93 @@
+/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+	.intro p{
+		color: #fff;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	/* background
+	* --------------------------------------- */
+	.opacity-layer {
+		position: absolute;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0.5);
+		width: 110%;
+		height: 110%;
+		left: -5%;
+		  top: -5%;
+	}
+	
+
+	/* Fixed header.
+	* --------------------------------------- */
+	#header{
+		position:fixed;
+		height: 50px;
+		display:block;
+		width: 100%;
+		background:none;
+		z-index:9;
+		text-align:center;
+		color: #f2f2f2;
+		padding: 20px 0 0 0;
+	}
+
+	#header{
+		top:50px;
+	}
+
+	/* Font inject
+	* --------------------------------------- */
+	@font-face {
+		font-family: sf-thin;
+		src: url(../font/SF-Pro-Display-Thin.otf);
+	 }
+	 @font-face {
+		font-family: sf-ultrathin;
+		src: url(../font/SF-Pro-Display-Ultralight.otf);
+	 }
+	 @font-face {
+		font-family: cuyabra;
+		src: url(../font/cuyabra.otf);
+	 }
+	 @font-face {
+		font-family: typostyle;
+		src: url(../font/TypoStyleThinDemo.otf);
+	 }
+	 
+
+	 /* RESPONSIVE */
+/* extra small */
+@media (max-width: 767px) {
+	
+}
+
+/* extra small to small */
+@media (max-width: 991px) {
+	
+}
+
+/* small */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+/* medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+/* large */
+@media (min-width: 1200px) {
+	
+}
